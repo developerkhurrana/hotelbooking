@@ -1,0 +1,43 @@
+.fp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    .fp-item{
+        flex: 1;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+
+        .fp-image{
+            width: 100%;
+        }
+
+        .fp-name{
+            font-weight: bold;
+        }
+
+        .fp-city{
+            font-weight: 300;
+        }
+
+        .fp-price{
+            font-weight: 500;
+        }
+
+        .fp-rating button{
+            background-color: #368fd8;
+            color: white;
+            border: none;
+            padding: 3px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        .fp-rating span{
+            font-size: 14px;
+        }
+    }
+}

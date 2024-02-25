@@ -1,0 +1,19 @@
+.footer {
+  width: 100%;
+  max-width: 1024px;
+  font-style: 12px;
+}
+.footer .f-lists {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.footer .f-lists .f-list {
+  list-style: none;
+  padding: 0;
+}
+.footer .f-lists .f-list .f-list-item {
+  margin-bottom: 10px;
+  color: #368fd8;
+}/*# sourceMappingURL=Footer.css.map */

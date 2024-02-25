@@ -1,0 +1,97 @@
+
+.list-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    .list-wrapper{
+        width: 100%;
+        max-width: 1024px;
+        display: flex;
+        gap: 20px;
+   
+        .list-search-parent{
+            position: sticky;
+            top: 10px ;
+
+            .list-search{
+                flex: 1;
+                background-color: #febb02;
+                padding: 10px;
+                border-radius: 10px;
+                position: relative;
+                height: max-content;
+    
+                .list-title{
+                    font-style: 20px;
+                    color: #555;
+                    margin-bottom: 10px;
+                }
+    
+                button{
+                    padding: 10px;
+                    background-color: #368fd8;
+                    color: white;
+                    border: none;
+                    width: 100%;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+    
+                .list-item{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+                    margin-bottom: 10px;
+                    // position: relative;
+    
+                    label{
+                        font-size: 16px;
+                    }
+    
+                    input{
+                        border: none;
+                        padding: 5px;
+                    }
+    
+                 
+    
+                    .range-date{
+                        height: 30px;
+                        background-color: white;
+                        padding: 5px;
+                        display: flex;
+                        align-items: center;
+                        cursor: pointer;
+                    }
+    
+                
+                    .list-options{
+                        padding: 10px;
+    
+                        .list-option-item{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-bottom: 10px;
+                            color: #555;
+                            font-size: 12px;
+        
+                            input{
+                                width: 50px;
+                            }
+                        }
+                    }
+    
+                }
+    
+            }
+        }
+       
+
+        .list-result{
+            flex: 3;
+        }
+
+       
+    }
+}

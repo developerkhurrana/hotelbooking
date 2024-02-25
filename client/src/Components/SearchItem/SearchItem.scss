@@ -1,0 +1,113 @@
+.search-item{
+    border: 1px solid lightgrey;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    .si-image{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .si-desc{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex: 3;
+
+        .si-title{
+            font-size: 20px;
+            color: #368fd8;
+        }
+
+        .si-distance{
+            font-size: 12px;
+        }
+        
+        .si-taxiOp{
+            font-size: 12px;
+            background: #008009;
+            color: white;
+            width: max-content;
+            padding: 3px;
+            border-radius: 5px;
+
+        }
+
+        .si-subtitle{
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .si-features{
+            font-size: 12px;
+        }
+
+        .si-cancelOp{
+            font-size: 12px;
+            color: #008009;
+            font-weight: bold;
+        }
+
+        .si-cancelOpSubtitle{
+            font-size: 12px;
+            color: #008009;
+        }
+    }
+
+    .si-details{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .si-rating{
+            display: flex;
+            justify-content: space-between;
+
+            button{
+                background-color: #368fd8;
+                color: white;
+                padding: 5px;
+                font-weight: bold;
+                border: none;
+            }
+
+            span{
+                font-weight: 500;
+            }
+        }
+
+        .si-detailTexts{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            text-align: right;
+
+            .si-price{
+                font-size: 24px;
+            }
+
+            .si-taxOp{
+                font-size: 12px;
+                color: gray;
+            }
+
+            .si-check-button{
+                background-color: #368fd8;
+                color: white;
+                font-weight: bold;
+                padding: 10px 5px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        } 
+
+
+    }
+}

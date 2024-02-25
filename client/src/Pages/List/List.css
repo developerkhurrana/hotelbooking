@@ -1,0 +1,75 @@
+.list-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.list-container .list-wrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+}
+.list-container .list-wrapper .list-search-parent {
+  position: sticky;
+  top: 10px;
+}
+.list-container .list-wrapper .list-search-parent .list-search {
+  flex: 1;
+  background-color: #febb02;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  height: -moz-max-content;
+  height: max-content;
+}
+.list-container .list-wrapper .list-search-parent .list-search .list-title {
+  font-style: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+.list-container .list-wrapper .list-search-parent .list-search button {
+  padding: 10px;
+  background-color: #368fd8;
+  color: white;
+  border: none;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
+.list-container .list-wrapper .list-search-parent .list-search .list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.list-container .list-wrapper .list-search-parent .list-search .list-item label {
+  font-size: 16px;
+}
+.list-container .list-wrapper .list-search-parent .list-search .list-item input {
+  border: none;
+  padding: 5px;
+}
+.list-container .list-wrapper .list-search-parent .list-search .list-item .range-date {
+  height: 30px;
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.list-container .list-wrapper .list-search-parent .list-search .list-item .list-options {
+  padding: 10px;
+}
+.list-container .list-wrapper .list-search-parent .list-search .list-item .list-options .list-option-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 12px;
+}
+.list-container .list-wrapper .list-search-parent .list-search .list-item .list-options .list-option-item input {
+  width: 50px;
+}
+.list-container .list-wrapper .list-result {
+  flex: 3;
+}/*# sourceMappingURL=List.css.map */

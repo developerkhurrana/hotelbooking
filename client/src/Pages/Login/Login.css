@@ -1,0 +1,81 @@
+.login {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../assets/bglogin.jpg");
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.login .up {
+  position: absolute;
+  left: -10%;
+  top: -100px;
+}
+.login .down {
+  position: absolute;
+  bottom: -15%;
+  right: -5%;
+}
+.login .left {
+  height: 200px;
+  position: absolute;
+  top: 60%;
+  left: -15%;
+  z-index: 1;
+}
+.login .right {
+  height: 200px;
+  position: absolute;
+  bottom: 65%;
+  left: 70%;
+  z-index: 1;
+}
+.login .login-container {
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: -8px -11px 39px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 20px 0px rgb(54, 54, 54);
+  width: 30%;
+  padding: 30px 0;
+  overflow: hidden;
+}
+.login .login-container h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  margin-top: 10px;
+  color: white;
+}
+.login .login-container input {
+  width: 55%;
+  padding: 8px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(217, 214, 214);
+  border: none;
+}
+.login .login-container button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 30%;
+  border-radius: 20px;
+  border: none;
+  background-color: #368fd8;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+}
+.login .login-container span {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  z-index: 2;
+}/*# sourceMappingURL=Login.css.map */

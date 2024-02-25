@@ -1,0 +1,231 @@
+[{
+  "_id": {
+    "$oid": "64ddb201086b45f284944b20"
+  },
+  "title": "King Room",
+  "description": "King size bed, 1 bathroom, balcony",
+  "price": 1200,
+  "maxPeople": 3,
+  "roomNumbers": [
+    {
+      "number": 101,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64ddb201086b45f284944b21"
+      }
+    },
+    {
+      "number": 102,
+      "unavailableDates": [
+        {
+          "$date": "2023-10-30T11:26:16.146Z"
+        },
+        {
+          "$date": "2023-10-30T11:26:16.146Z"
+        }
+      ],
+      "_id": {
+        "$oid": "64ddb201086b45f284944b22"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-17T05:37:05.615Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-06T16:28:58.299Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eef2c5883f468a6713de53"
+  },
+  "title": "King Room",
+  "description": "King size bed, 1 bathroom, balcony",
+  "price": 1200,
+  "maxPeople": 3,
+  "roomNumbers": [
+    {
+      "number": 101,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64eef2c5883f468a6713de54"
+      }
+    },
+    {
+      "number": 102,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64eef2c5883f468a6713de55"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-30T07:41:57.782Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-30T07:41:57.782Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eef2db883f468a6713de58"
+  },
+  "title": "Queen Room",
+  "description": "King size bed, 1 bathroom, balcony",
+  "price": 1200,
+  "maxPeople": 3,
+  "roomNumbers": [
+    {
+      "number": 104,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64eef2db883f468a6713de59"
+      }
+    },
+    {
+      "number": 103,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64eef2db883f468a6713de5a"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-30T07:42:19.095Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-30T07:42:19.095Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64eef2ff883f468a6713de5d"
+  },
+  "title": "Another Room",
+  "description": "Queen Size bed, 1 bathroom, balcony",
+  "price": 1200,
+  "maxPeople": 3,
+  "roomNumbers": [
+    {
+      "number": 105,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64eef2ff883f468a6713de5e"
+      }
+    },
+    {
+      "number": 106,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64eef2ff883f468a6713de5f"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-30T07:42:55.760Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-30T07:42:55.760Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ef27583dcac2461093e6b8"
+  },
+  "title": "Another Room",
+  "description": "Queen Size bed, 1 bathroom, balcony",
+  "price": 1200,
+  "maxPeople": 3,
+  "roomNumbers": [
+    {
+      "number": 105,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64ef27583dcac2461093e6b9"
+      }
+    },
+    {
+      "number": 106,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64ef27583dcac2461093e6ba"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-30T11:26:16.146Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-30T11:26:16.146Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ef27a43dcac2461093e6bd"
+  },
+  "title": "Deluxe Room",
+  "description": "King bed, 1 bathroom, balcony",
+  "price": 2000,
+  "maxPeople": 3,
+  "roomNumbers": [
+    {
+      "number": 101,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64ef27a43dcac2461093e6be"
+      }
+    },
+    {
+      "number": 102,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64ef27a43dcac2461093e6bf"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-30T11:27:32.332Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-30T11:27:32.332Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ef27c73dcac2461093e6c2"
+  },
+  "title": "Super-Deluxe Room",
+  "description": "King Size bed, 1 bathroom, balcony",
+  "price": 2500,
+  "maxPeople": 3,
+  "roomNumbers": [
+    {
+      "number": 105,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64ef27c73dcac2461093e6c3"
+      }
+    },
+    {
+      "number": 106,
+      "unavailableDates": [],
+      "_id": {
+        "$oid": "64ef27c73dcac2461093e6c4"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-08-30T11:28:07.763Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-30T11:28:07.763Z"
+  },
+  "__v": 0
+}]
